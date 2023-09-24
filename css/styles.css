@@ -297,10 +297,6 @@ body {
     width: calc((100%-48)/3);
 }
 
-.portfolio_image {
-    margin-bottom: 32px;
-}
-
 .portfolio_title {
     font-size: 36px;
     font-weight: 700;
