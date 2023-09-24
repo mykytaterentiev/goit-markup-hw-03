@@ -202,13 +202,8 @@ body {
 
 //CORE-VALUES//
 
-.matvei {
-    color: red !important;
-    display: none;
-}
 
 .visually-hidden {
-    display: none;
     position: absolute;
     width: 1px;
     height: 1px;
