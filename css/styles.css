@@ -53,7 +53,7 @@ body {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
-    padding: 24px 0;
+    
 }
 
 
@@ -83,6 +83,7 @@ body {
 }
 
 .header_navigation {
+    padding: 24px 0;
     align-items: center;
     display: flex;
     flex-grow: 1;
@@ -100,6 +101,7 @@ body {
 }
 
 .address_list{
+    padding: 24px 0;
     display: flex;
     gap: 40px;
     list-style: none;
@@ -170,7 +172,7 @@ body {
 
 .service_button {
     display: block;
-    max-width: 169px;
+    min-width: 169px;
     height: 56px;
     padding: 16px 32px;
     border: none;
@@ -252,16 +254,12 @@ body {
     gap: 24px;
 }
 
-.employee_list_item {
-    text-align: center;
+.employee_item_container {
+    padding: 32px 0;
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     background: var(--WHITE, #FFF);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
-
-.employee_image {
-    margin-bottom: 32px;
 }
 
 .employee{
@@ -273,7 +271,9 @@ body {
     text-align: center;
     color: #2e2f42;
 }
+
 .jobtitle{
+    text-align: center;
    color: #434455;
    margin-bottom: 32px;
 }
@@ -283,17 +283,18 @@ body {
     padding-bottom: 120px;
 }
 .portfolio_list {
-    list-style: none;
     display: flex;
-    gap: px;
+    column-gap: 24px;
+    list-style: none;
+    row-gap: 48px;
     flex-wrap: wrap;
-    gap: 21px;
 }
 
-.portfolio_list_item {
+.portfolio_item_container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
     width: calc((100%-48)/3);
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
-    background: var(--WHITE, #FFF);
 }
 
 .portfolio_image {
@@ -312,7 +313,7 @@ body {
 }
 
 .portfolio_subtitle {
-    margin-top: 8px;
+    margin-bottom: 8px;
     color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
@@ -325,7 +326,6 @@ body {
 }
 .footer {
     padding: 100px 0;
-    padding-bottom: 189.5px;
     background-color: #2E2F42;
 }
 
