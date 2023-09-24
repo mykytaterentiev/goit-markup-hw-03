@@ -202,12 +202,14 @@ body {
 
 //CORE-VALUES//
 
+.matvei {
+    color: red !important;
+    display: none;
+}
+
 .visually-hidden {
     display: none;
-    }
-
-
-
+}
 
 .core {
     padding-top: 120px;
